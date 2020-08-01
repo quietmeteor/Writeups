@@ -5,7 +5,7 @@ First of all let's, of course, nmap the machine, an aggressive scan will get us 
 
 ![Nmap result](nmap.png)
 
-We can see three opened ports - ftp, ssh and http. Also note that we can login to the ftp service as Anonymous, we'll check that later. Let's see if we can find something on the website.
+We can see three opened ports - ftp, ssh and http. Also note that we can login to the ftp service Anonymously, we'll check that later. Let's see if we can find something on the website.
 
 ![website](port80.png)
 
