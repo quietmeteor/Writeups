@@ -5,11 +5,11 @@ First of all let's, of course, nmap the machine, an aggressive scan will get us 
 
 ![Nmap result](nmap.png)
 
-We can see tre opened ports - ftp, ssh and http. Also note that we can login to the ftp service as Anonymous, we'll check that later. Let's see if we can find something on the website.
+We can see three opened ports - ftp, ssh and http. Also note that we can login to the ftp service as Anonymous, we'll check that later. Let's see if we can find something on the website.
 
 ![website](port80.png)
 
-Nothing usefull about getting into ssh nor information about flags, also the source code doesn't hide anything, it even seems pointless to run gobuster, let's directly jump to the ftp service.
+Nothing useful about getting into ssh nor information about flags, also the source code doesn't hide anything, it even seems pointless to run gobuster, let's directly jump to the ftp service.
 
 > ftp [machine_target_ip]
 
