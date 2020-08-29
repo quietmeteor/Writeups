@@ -48,7 +48,7 @@ or even better:
 
 ![version](getcap.png)
 
-Well... as we can see there's one ".hackmeplease" folder so i guess we'll check that... We can see that we have all needed permission on that file, and it's also owned by root! Exploiting it is easy, we'll use that file to spawn a shell as root by using python:
+Well... as we can see there's one ".hackmeplease" folder so i guess we'll check that... We can see that we have all needed permission on that file and also a "cap_setuid+ep" that means we can change our UID! Exploiting it is easy, we'll use that file to spawn a shell as root by using python:
 
 >./python3 -c 'import os; os.setuid(0); os.system("/bin/bash")'
 
