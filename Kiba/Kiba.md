@@ -1,7 +1,7 @@
 # TryHackMe kiba [room](https://tryhackme.com/room/kiba) writeup.
 
 
-Nmap scan (consider that the machine took for me at least 5 minutes to bootup so some ports may not be shown):
+Nmap scan (consider that the machine took for me about 5 minutes to fully boot):
 
 >nmap -p- -Sc [target-ip]
 
@@ -53,3 +53,5 @@ Well... as we can see there's one ".hackmeplease" folder so i guess we'll check 
 >./python3 -c 'import os; os.setuid(0); os.system("/bin/bash")'
 
 ![privesc](privesc.png)
+
+For any questions reach me through THM's dicord.
