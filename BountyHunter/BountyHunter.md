@@ -49,5 +49,5 @@ And that's exactly what we needed.
 
 ![user](root.png)
 
-Well, our job here is done. For any questions/typos contact me on discord Skull#3228.
+Well, our job here is done.
 
