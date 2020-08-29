@@ -14,7 +14,7 @@ Nothing interesting, just one hint "linux capabilities" we'll need them later to
 
 ![nmap](nmap.png)
 
-Nmap shows us multiple ports but the vulnerable one is 5601, let's check it.
+Nmap shows us multiple ports but the one that we need is 5601, let's check it.
 Right now we need to find the kibana version, after exploring the website a bit we can see the version in "management" tab.
 
 ![version](version.png)
@@ -54,4 +54,4 @@ Well... as we can see there's one ".hackmeplease" folder so i guess we'll check 
 
 ![privesc](privesc.png)
 
-For any questions reach me through THM's dicord.
+For any questions reach me through THM's discord.
