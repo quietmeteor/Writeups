@@ -1,4 +1,4 @@
-#TryHackMe kiba [room](https://tryhackme.com/room/kiba) writeup.
+# TryHackMe kiba [room](https://tryhackme.com/room/kiba) writeup.
 
 
 Nmap scan (consider that the machine took for me at least 5 minutes to bootup so some ports may not be shown):
