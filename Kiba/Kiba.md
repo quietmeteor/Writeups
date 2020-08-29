@@ -1,7 +1,7 @@
 # TryHackMe kiba [room](https://tryhackme.com/room/kiba) writeup.
 
 
-Nmap scan (consider that the machine took for me about 5 minutes to fully boot):
+Nmap scan (consider that the machine took me about 5 minutes to fully boot):
 
 >nmap -p- -Sc [target-ip]
 
