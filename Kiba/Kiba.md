@@ -3,7 +3,7 @@
 
 Nmap scan (consider that the machine took me about 5 minutes to fully boot-up):
 
->nmap -p- -Sc [target-ip]
+>nmap -p- -sC [target-ip]
 
 
 While we wait for nmap to finish let's check the default port 80:
